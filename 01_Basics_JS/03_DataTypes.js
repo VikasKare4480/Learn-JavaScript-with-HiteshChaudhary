@@ -26,5 +26,13 @@ console.log(typeof holdNothing); // undefined
 let holdsNullData = null;
 console.log(typeof holdsNullData); // object
 
+let countryInfo = {
 
+    name : 'India',
+    phonoeCode : '+91',
+    noOfStates : 29,
+    president : 'Dropadi Murmu',
+    primeMinister : 'Narendra Modi',
+}
 
+console.log(typeof countryInfo); // object
