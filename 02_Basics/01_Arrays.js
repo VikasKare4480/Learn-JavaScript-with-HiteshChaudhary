@@ -47,3 +47,16 @@ const pakistanIndex = countries.indexOf('China');
 console.log(pakistanIndex);
 console.log(countries.splice(pakistanIndex,1)); // china removed
 console.log(countries);
+
+
+for(const country of countries) {
+
+    console.log(country);
+}
+
+countries.forEach(
+    (country, index, countries) => {
+
+        console.log(country + ": " +  index);
+    }
+); 
