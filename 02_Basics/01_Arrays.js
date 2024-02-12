@@ -38,3 +38,12 @@ console.log(countries.includes('India')); // true
 const BRICSCountries = ['BRAZIL', 'RUSSIA', 'INDIA', 'CHINA', 'SOUTH AFRICA']
 console.log(countries.concat("Netherland", "Ukrain", BRICSCountries));
 console.log(countries.length);
+console.log(countries.join(' '));
+console.log(countries.toString()); // default , separated 
+
+// remove specific element from array
+
+const pakistanIndex = countries.indexOf('China');
+console.log(pakistanIndex);
+console.log(countries.splice(pakistanIndex,1)); // china removed
+console.log(countries);
