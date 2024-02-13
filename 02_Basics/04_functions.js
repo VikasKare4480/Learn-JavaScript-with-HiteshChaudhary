@@ -112,7 +112,3 @@ const addTwo = function(number) {
 // console.log((addThree(10))); // can't acces before its initialization
 const addThree = number => number + 3;
 console.log((addThree(10))); 
-
-
-
-
