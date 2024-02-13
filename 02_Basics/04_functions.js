@@ -77,3 +77,40 @@ getObjectAsParameter({
     price : 2400
 })
 
+function Outer() {
+
+    const userName = 'VikasKare';
+
+    function Inner() {
+
+        const website = 'Vikaskare.com';
+        console.log(userName);
+    }   
+    // console.log(website); 
+    Inner();
+}
+
+Outer();
+
+
+// Normal functions supports the Hoisting but function Expressions not 
+
+console.log(addOne(10));
+
+function addOne(number) {
+
+    return number + 1;
+}
+
+
+// console.log(addTwo(10)); // can't acces before its initialization
+
+const addTwo = function(number) {
+    return number + 2;
+}
+
+console.log((addThree(10))); // can't acces before its initialization
+const addThree = number => number + 3;
+
+
+
