@@ -41,11 +41,42 @@ console.log(array);
 
 for(let index = 1; index <= 20; index++) {
 
-        
-        if(index == 5) {
+        if(index == 10) {
             continue;
+        }
+        
+        if(index == 5) { 
             console.log("Now value is 5");
             break;
         }
         console.log(`value of i is ${index}`);
 }
+
+// While lOop 
+
+let index = 1;
+
+while(index <= 20) {
+
+    console.log(`Value of index is ${index}`);
+    index++;
+}
+
+const kareFamily = ['Vikas', 'Sanket', 'Damini', 'Laxman', 'Mandakini'];
+
+console.log(kareFamily.length);
+
+let member = 0;
+
+while(member < kareFamily.length) {
+
+    console.log(kareFamily[member]);
+    member++;
+}
+console.log('-------------------------------');
+
+member--;
+do {
+    console.log(kareFamily[member]);
+    member--;
+}while(member >= 0);
