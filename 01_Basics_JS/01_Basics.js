@@ -12,7 +12,7 @@ console.log("Age : ", age);
 const bloodGroup = "O+";
 console.log("BloodGroup : ", bloodGroup);
 
-// age = 23; // can't assign to the cosnt variable  == TypeError
+// age = 23; // can't assign to the const variable  == TypeError
 
 console.table([personsName, personsSurname, age, bloodGroup]);
 console.log ('This is simple log file');

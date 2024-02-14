@@ -1,5 +1,5 @@
 
-const vikas = 'This is cosnt must be initialized';
+const vikas = 'This is const must be initialized';
 console.log(vikas); 
 
 const name = "VikasKare";

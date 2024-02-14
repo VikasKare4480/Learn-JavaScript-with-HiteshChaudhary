@@ -1,7 +1,7 @@
 
  /*
  
-    cosnt --> mostly used type in Js to Declare the const values which cant be resigned 
+    const --> mostly used type in Js to Declare the const values which cant be resigned 
               and needs to initialize during the declaration itself
 
               having Block Scope
