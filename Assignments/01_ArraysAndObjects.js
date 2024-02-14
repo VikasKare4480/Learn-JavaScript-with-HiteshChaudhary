@@ -23,4 +23,3 @@
 
 // 10. Create two objects, write a function to compare their equality, and test it.
 
-// Feel free to use these concise questions for your JavaScript assignment.
