@@ -136,6 +136,10 @@ console.log(``);
 
 // Create a function `flattenArray(arr)` that takes an array of nested arrays and returns a single-level array containing all elements.
 
+const flatArray = [10, 20, ["Vikas", 'Laxman', " Kare"], [56.99]];
+console.log(flatArray);
+const newFlatArray = flatArray.flat();
+console.log(flatArray);
 // **7. Deep Copy Object:**
 
 // Create a function `deepCopyObject(obj)` that takes an object and returns a new object that is a deep copy (copies all nested objects and arrays).
