@@ -154,43 +154,43 @@ const person1 = {
   // Test again after modification
   console.log(areObjectsEqual(person1, person2)); // Output: false
   
-// const BRICSNationsObj = {
-//     Brazil: true,
-//     Russia: true,
-//     India: true,
-//     China: true,
-//     'South Africa': true
-//   };
+const BRICSNationsObj = {
+    Brazil: true,
+    Russia: true,
+    India: true,
+    China: true,
+    'South Africa': true
+  };
   
-//   const UNPermanentsObj = {
-//     'United States Of America': true,
-//     China: true,
-//     France: true,
-//     'United Kingdom': true,
-//     Russia: true
-//   };
+  const UNPermanentsObj = {
+    'United States Of America': true,
+    China: true,
+    France: true,
+    'United Kingdom': true,
+    Russia: true
+  };
   
-// const areObjectsEqual = function(object1, object2) {
+const areObjectsEqual = function(object1, object2) {
 
-//     const key1 = Object.entries(object1);
-//     const key2 = Object.entries(object2);
+    const key1 = Object.entries(object1);
+    const key2 = Object.entries(object2);
 
-//     // Only compares the no of properties in the objects
-//     if(key1.length !== key2.length) {
+    // Only compares the no of properties in the objects
+    if(key1.length !== key2.length) {
 
-//         return false;
-//     }
+        return false;
+    }
 
-//     // Compare the actual values of the Both Objects 
+    // Compare the actual values of the Both Objects 
     
-//     for(const key of key1) {
+    for(const key of key1) {
 
-//         if(object1[key] != object2[key]) {
+        if(object1[key] != object2[key]) {
 
-//             return false;
-//         }
-//     }
-//     return true;
-// }
+            return false;
+        }
+    }
+    return true;
+}
 
-// console.log(areObjectsEqual(BRICSNationsObj, UNPermanentsObj));
+console.log(areObjectsEqual(BRICSNationsObj, UNPermanentsObj));
