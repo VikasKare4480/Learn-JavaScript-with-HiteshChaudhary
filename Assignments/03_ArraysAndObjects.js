@@ -152,8 +152,7 @@ console.log(flatArray);
 
 // Create a function `groupAnagrams(arr)` that takes an array of strings and returns an object where each key is a sorted string (representing an anagram group) and the value is an array of strings belonging to that anagram group.
 
-// **10. Student Grade Calculator:**
-
+// **10. Student Grade Calculator:*
 // Create an object `student` with properties: name, marks (object with subject names as keys and marks as values), and calculateGrade() method. The `calculateGrade()` method should return the letter grade (A, B, C, etc.) based on the average mark, considering a threshold for each grade.
 
 // **Bonus:** Write unit tests for your functions using a testing framework like Jest.
